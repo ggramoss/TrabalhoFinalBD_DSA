@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Trabalho_finalAPI",
+    "dateExported": "2023-07-10T19:44:48.955Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "41748e57-7916-4e38-9079-0b799445b72b",
+            "colId": "61eb6ffb-f590-4ee9-9f8d-038d1acbf1ae",
+            "containerId": "",
+            "name": "Inicial ",
+            "url": "http://localhost:3000/",
+            "method": "GET",
+            "sortNum": 5000,
+            "created": "2023-06-13T17:19:01.961Z",
+            "modified": "2023-06-13T17:19:24.525Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4d9a8629-6d86-4f19-b282-d701c76bb7e8",
+            "colId": "61eb6ffb-f590-4ee9-9f8d-038d1acbf1ae",
+            "containerId": "",
+            "name": "Buscar Entregas",
+            "url": "http://localhost:3000/entregas/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-13T17:13:01.134Z",
+            "modified": "2023-06-13T17:13:01.134Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "de9ff932-129f-40c2-9778-cc6e87897355",
+            "colId": "61eb6ffb-f590-4ee9-9f8d-038d1acbf1ae",
+            "containerId": "",
+            "name": "Buscar Entrega ID",
+            "url": "http://localhost:3000/entregas/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-13T17:13:01.135Z",
+            "modified": "2023-06-13T17:13:01.135Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fc6fd7ce-caae-4dfc-a8bb-39177f17cfca",
+            "colId": "61eb6ffb-f590-4ee9-9f8d-038d1acbf1ae",
+            "containerId": "",
+            "name": "Add Entregas ",
+            "url": "http://localhost:3000/entregas/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-13T17:13:01.136Z",
+            "modified": "2023-07-10T19:44:12.251Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 6,\n  \"remetente\": \"kaun Silva\",\n  \"destinatario\": \"Maria Souza\",\n  \"endereco\": \"Rua A, 123\",\n  \"data_envio\": \"2023-07-01T03:00:00.000Z\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2ca44b1-c826-4ed7-8d5c-6e4247d24c55",
+            "colId": "61eb6ffb-f590-4ee9-9f8d-038d1acbf1ae",
+            "containerId": "",
+            "name": "Alterar Entregas",
+            "url": "http://localhost:3000/entregas/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-06-13T17:13:01.137Z",
+            "modified": "2023-07-10T19:44:25.516Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 2,\n  \"remetente\": \"kaun Silva\",\n  \"destinatario\": \"Maria Souza\",\n  \"endereco\": \"Rua A, 123\",\n  \"data_envio\": \"2023-07-01T03:00:00.000Z\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d8057338-8113-4744-b041-1a8abd77583a",
+            "colId": "61eb6ffb-f590-4ee9-9f8d-038d1acbf1ae",
+            "containerId": "",
+            "name": "Delete Entregas",
+            "url": "http://localhost:3000/entregas/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-06-13T17:13:01.138Z",
+            "modified": "2023-07-10T19:44:33.866Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

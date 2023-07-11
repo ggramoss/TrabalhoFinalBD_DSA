@@ -1,0 +1,10 @@
+CREATE TABLE entregas (
+  id SERIAL PRIMARY KEY,
+  remetente VARCHAR(100) NOT NULL,
+  destinatario VARCHAR(100) NOT NULL,
+  endereco VARCHAR(200) NOT NULL,
+  data_envio DATE NOT NULL
+);
+
+INSERT INTO entregas (id, remetente, destinatario, endereco, data_envio)
+VALUES (1, 'João', 'Maria', 'Rua A', '2023-07-01') RETURNING *
